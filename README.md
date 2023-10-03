@@ -22,7 +22,7 @@ O layout da aplicação mobile está disponível neste link: <a href="https://ww
 ---
 
 ## 📄 Documentação
-
+http://localhost:8080/swagger-ui/index.html
 A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
 
 ---
@@ -46,5 +46,11 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 Projeto desenvolvido por [Alura](https://www.alura.com.br) e utilizado nos cursos de Spring Boot.
 
 Instrutor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira) 
+
+---
+
+## Executar o Build
+
+java "-Dspring.profile.active=prod" "-Dspring.datasource.url=jdbc:mysql://localhost/vollmed_api" "-Dspring.datasource.username=root" "-Dspring.datasource.password=Root123@" -jar target\api-0.0.1-SNAPSHOT.jar
 
 ---
